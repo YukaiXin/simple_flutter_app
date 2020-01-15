@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
+    debugPaintSizeEnabled = false;//true 显示布局结构
     Column buildButtonColumn(IconData icon, String label) {
       Color color = Theme.of(context).primaryColor;
 
