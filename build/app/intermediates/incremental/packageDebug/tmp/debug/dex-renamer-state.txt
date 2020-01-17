@@ -1,4 +1,4 @@
-#Fri Jan 10 16:59:17 CST 2020
+#Fri Jan 17 10:38:05 CST 2020
 base.0=/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
