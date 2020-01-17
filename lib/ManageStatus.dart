@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       home: new Scaffold(
         appBar: new AppBar(
-          title: new Text('Flutter Demo'),
+          title: new Text('widget 管理状态'),
         ),
         body: new Center(
           child: new Column(
