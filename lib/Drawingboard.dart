@@ -41,7 +41,7 @@ class SignatureState extends State<Signature> {
           },
           onPanEnd: (DragEndDetails details) => _points.add(null),
         ),
-        CustomPaint(painter: new SignaturePainter(_points))
+        CustomPaint(painter: new SignaturePainter(_points)),
       ],
     );
   }

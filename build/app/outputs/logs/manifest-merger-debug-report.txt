@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-30:12
-MERGED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-30:12
+ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/kaixinyu/.gradle/caches/transforms-2/files-2.1/b8b68c04ee72209a3beca37e17f7088d/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kaixinyu/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kaixinyu/.gradle/caches/transforms-2/files-2.1/0f0610cdcf96e6cfa9529b6a3246e3f6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -37,16 +37,16 @@ INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/
 		INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
 		INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
 		INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:1:11-69
 application
-ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:8:5-29:19
+ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:8:5-34:19
 MERGED from [androidx.core:core:1.0.0] /Users/kaixinyu/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] /Users/kaixinyu/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kaixinyu/.gradle/caches/transforms-2/files-2.1/52d4fecae8c1eb4103beef9198e64f51/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
@@ -60,7 +60,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kaix
 	android:name
 		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:9:9-57
 activity#com.kxyu.simple_flutter_app.MainActivity
-ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:12:9-23:20
+ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:12:9-28:20
 	android:launchMode
 		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:14:13-43
 	android:hardwareAccelerated
@@ -83,12 +83,26 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:21:17-76
 	android:name
 		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:21:27-74
-meta-data#flutterEmbedding
-ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:26:9-28:33
-	android:value
-		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:28:13-30
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.SEND
+ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:27:13-44
+		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:25:27-73
+data
+ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:26:17-55
+	android:mimeType
+		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:26:23-52
+meta-data#flutterEmbedding
+ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:31:9-33:33
+	android:value
+		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:33:13-30
+	android:name
+		ADDED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:32:13-44
 uses-sdk
 INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml

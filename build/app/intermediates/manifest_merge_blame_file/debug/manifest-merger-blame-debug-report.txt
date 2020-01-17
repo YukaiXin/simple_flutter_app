@@ -22,7 +22,7 @@
 20         FlutterApplication and put your custom class here.
 21    -->
 22    <application
-22-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:8:5-29:19
+22-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:8:5-34:19
 23        android:name="io.flutter.app.FlutterApplication"
 23-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:9:9-57
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -33,7 +33,7 @@
 27        android:label="simple_flutter_app" >
 27-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:10:9-43
 28        <activity
-28-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:12:9-23:20
+28-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:12:9-28:20
 29            android:name="com.kxyu.simple_flutter_app.MainActivity"
 29-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:13:13-41
 30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -56,17 +56,31 @@
 38-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:21:17-76
 38-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:21:27-74
 39            </intent-filter>
-40        </activity>
-41        <!--
-42             Don't delete the meta-data below.
-43             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-44        -->
-45        <meta-data
-45-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:26:9-28:33
-46            android:name="flutterEmbedding"
-46-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:27:13-44
-47            android:value="2" />
-47-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:28:13-30
-48    </application>
-49
-50</manifest>
+40            <intent-filter>
+40-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:23:13-27:29
+41                <action android:name="android.intent.action.SEND" />
+41-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:24:17-69
+41-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:24:25-66
+42
+43                <category android:name="android.intent.category.DEFAULT" />
+43-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:25:17-76
+43-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:25:27-73
+44
+45                <data android:mimeType="text/plain" />
+45-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:26:17-55
+45-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:26:23-52
+46            </intent-filter>
+47        </activity>
+48        <!--
+49             Don't delete the meta-data below.
+50             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+51        -->
+52        <meta-data
+52-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:31:9-33:33
+53            android:name="flutterEmbedding"
+53-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:32:13-44
+54            android:value="2" />
+54-->/Users/kaixinyu/Documents/flutterCodes/simple_flutter_app/android/app/src/main/AndroidManifest.xml:33:13-30
+55    </application>
+56
+57</manifest>
