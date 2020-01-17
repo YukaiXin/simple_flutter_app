@@ -30,10 +30,20 @@ class SignatureState extends State<Signature> {
     return new Stack(
       children: [
         GestureDetector(
+        onTap: ()
+        {
+          print("tap");
+        },
+          onDoubleTap: (){
+            print("清空画板！");
+            print(_points);
+            setState(() {
+              _points.clear();
+            });
+          },
           onPanUpdate: (DragUpdateDetails details) {
             RenderBox referenceBox = context.findRenderObject();
-            Offset localPosition =
-            referenceBox.globalToLocal(details.globalPosition);
+            Offset localPosition = referenceBox.globalToLocal(details.globalPosition);
 
             setState(() {
               _points = new List.from(_points)..add(localPosition);
@@ -48,7 +58,21 @@ class SignatureState extends State<Signature> {
 }
 
 class DemoApp extends StatelessWidget {
-  Widget build(BuildContext context) => new Scaffold(body: new Signature());
+  Widget build(BuildContext context) => new Scaffold(
+      body: new Center(
+        child: new Signature()
+      ),
+      floatingActionButton: new GestureDetector(
+        child: new Icon(Icons.brush),
+        onTap: (){
+          print("clicking ...");
+        },
+      ),
+
+
+
+
+  );
 }
 
 void main() => runApp(new MaterialApp(home: new DemoApp()));

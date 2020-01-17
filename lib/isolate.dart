@@ -55,6 +55,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
   }
 
   getProgressDialog() {
+    /** 进度指示器 **/
     return new Center(child: new CircularProgressIndicator());
   }
 
@@ -69,6 +70,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
         tooltip: 'Fade',
         child: new Icon(Icons.brush),
         onPressed: () {
+          print("click ..........");
           setState(() {
             widgets.clear();
           });
